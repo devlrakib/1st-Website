@@ -4,7 +4,12 @@
 }
 
 .header{
-    background-color: #fff8f3;
+    background-color: #f5e9e1dc;
+    background-image:url(./Images/bg.webp);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 580px 400px;
+    
 }
 
 
@@ -51,6 +56,7 @@ nav li{
     display: flex;
     align-items: center;
     margin: 0px 200px;
+    margin-left: 80px;
 }
 
 
@@ -67,7 +73,37 @@ nav li{
 }
 
 .banner_description{
-    font-size: 18px;
-    color: #757575;
+    font-size: 20px;
+    color: black;
     margin-bottom: 30px;
+}
+                                                                /* Main Section Styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+                                                                /* About Section Styles */
+.about_me{
+
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+
+}
+
+.section_title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.section_description{
+    color: #78909C;
+    font-size: 18px;
+    margin-bottom: 30px;
+
 }
