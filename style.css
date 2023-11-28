@@ -154,6 +154,49 @@ main{
 .skills{
     background: #FFFFFF;
     box-shadow: 0 6px 50px rgb(0, 0, 0, 0.6);
-    border-: 5px;
+    border: 5px;
     padding: 40px;
 }
+
+                                                                   /* Resume Styles */
+/* .section_title{
+    margin-top: 50px;
+} */
+
+.resume_title{
+    margin-top: 30px;
+}
+
+.resume .section_title{
+    margin-top: 50px;
+}
+
+
+.resume_content{
+    display: flex;
+    gap: 24px;
+}
+
+.resume_item{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.resume .title{
+    font-weight: 700px;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+
+}
+.resume .subtitle{
+   color: #757575;
+   font-weight: 600px;
+   font-size: 20px;
+   margin-bottom: 20px;
+}
+
+.resume .Description{
+    color: #757575;
+}
+
