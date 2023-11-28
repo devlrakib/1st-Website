@@ -73,6 +73,7 @@ nav li{
 }
 
 .banner_description{
+    margin-top: 20px;
     font-size: 20px;
     color: black;
     margin-bottom: 30px;
@@ -123,4 +124,36 @@ main{
 .info_descriotion{
     font-weight: 700px;
     font-size: 20px;
+}
+
+
+                                                                    /* What i do styles */
+
+.what_i_do{
+    margin-top: 130px;
+
+}
+
+.skills_container{
+    display: flex;
+    gap: 24px;
+}
+
+.Skill_title{
+    text-align: center;
+    font-weight: 700px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill_description{
+    color: #757575;
+}
+
+.skills{
+    background: #FFFFFF;
+    box-shadow: 0 6px 50px rgb(0, 0, 0, 0.6);
+    border-: 5px;
+    padding: 40px;
 }
