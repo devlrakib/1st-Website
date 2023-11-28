@@ -97,6 +97,8 @@ main{
 
 .section_title{
     text-align: center;
+    font-weight: 700px;
+    font-size: 35px;
     margin-bottom: 30px;
 }
 
@@ -106,4 +108,19 @@ main{
     font-size: 18px;
     margin-bottom: 30px;
 
+}
+
+.about_info_container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about_info .info_title{
+    font-size: 20px;
+    color: red;
+}
+
+.info_descriotion{
+    font-weight: 700px;
+    font-size: 20px;
 }
