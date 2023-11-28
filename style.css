@@ -200,3 +200,9 @@ main{
     color: #757575;
 }
 
+                                                                                /* Resume Button */
+.resume_btn{
+    margin-top: 20px;
+    text-align: center;
+}
+
